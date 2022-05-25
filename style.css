@@ -1,8 +1,97 @@
 body{
-    background-image: url('file://C:\Users\coco4\OneDrive\Images\vestiaire-lyon');
+    background-color: #064acb;
+    margin: 0;
+}
+
+div:nth-of-type(1){
+    background-image: url('file:///C:/Users/coco4/OneDrive/Images/vestiaire-lyon.png');
+    position: relative;
+    height: 1200px;
+    min-height: 500px;
+    max-height: 1080px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
-    font-size: 80%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90px;
+    font-family: 'Bebas Neue', cursive;
+    color: #354abf;
+    text-align: center;
+    margin: 0;
 }
+h2{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    margin:0;
+}
+
+nav{
+    color: #354abf;
+    font-family: 'Bebas Neue', cursive;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+/* A mon sujet */
+a:nth-of-type(1){
+    margin-top: 28vh;
+}
+
+section:nth-of-type(1){
+    font-family: 'Bebas Neue', cursive;
+    background-color: #366ed8;
+}
+
+/* Parcours professionnel */
+a:nth-of-type(2){
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 28vh;
+}
+
+section:nth-of-type(2){
+    font-family: 'Bebas Neue', cursive;
+    background-color: #f2f3f3;
+}
+section:nth-of-type(2)>h2{
+    color: #366ed8;
+}
+
+/* Mes créations */ 
+a:nth-of-type(3){
+    margin-top: 15px;
+    margin-right: 35px;
+    margin-top: 28vh;
+}
+
+section:nth-of-type(3){
+    font-family: 'Bebas Neue', cursive;
+    background-color: #366ed8;
+}
+
+/* Me Contacter */ 
+a:nth-of-type(4){
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-top: 29vh;
+}
+section:nth-of-type(4){
+    font-family: 'Bebas Neue', cursive;
+    background-color: #f2f3f3;
+}
+
+section:nth-of-type(4)>h2{
+    color: #366ed8;
+}
+
