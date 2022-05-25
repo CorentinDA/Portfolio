@@ -1,9 +1,10 @@
 body{
     background-color: #064acb;
     margin: 0;
+    font-family: 'Bebas Neue', cursive;
 }
 
-div:nth-of-type(1){
+header>div{
     background-image: url('file:///C:/Users/coco4/OneDrive/Images/vestiaire-lyon.png');
     position: relative;
     height: 1200px;
@@ -27,13 +28,11 @@ h2{
 }
 
 p{
-    color: white;
     margin:0;
 }
 
 nav{
     color: #354abf;
-    font-family: 'Bebas Neue', cursive;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
@@ -41,11 +40,11 @@ nav{
     grid-row-gap: 0px;
     text-align: center;
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 28px;
 }
-/* A mon sujet */
+/*------------------------------------------------ A mon sujet -----------------------------------------------------------------------------------*/
 a:nth-of-type(1){
-    margin-top: 28vh;
+    margin-top: 29vh;
 }
 
 section:nth-of-type(1){
@@ -53,22 +52,58 @@ section:nth-of-type(1){
     background-color: #366ed8;
 }
 
-/* Parcours professionnel */
+h2:nth-of-type(1){
+    background-color :#366ed8;
+    color: white; 
+}
+
+/*---------------------------------------------- Parcours professionnel --------------------------------------------------------------------------------*/
 a:nth-of-type(2){
-    font-size: 25px;
-    margin-left: 30px;
-    margin-top: 28vh;
+    margin-top: 29vh;
+    margin-left: 4vh;
+}
+
+h2:nth-of-type(2){
+    background-color :#f2f3f3;
+    color: #366ed8; 
+    font-size: 50px;
+    text-decoration: underline dotted 5px #366ed8;
+    padding-top: 5vh;
 }
 
 section:nth-of-type(2){
     font-family: 'Bebas Neue', cursive;
     background-color: #f2f3f3;
-}
-section:nth-of-type(2)>h2{
-    color: #366ed8;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
 }
 
-/* Mes créations */ 
+section:nth-of-type(2)>div>img{
+    height: 50px;
+    width: 50px;
+    margin : 10px;
+}
+section:nth-of-type(2)>div>p{
+    margin-left: 20px;
+    font-size: 27px;
+}
+    
+section:nth-of-type(2)>div>h4{
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+section:nth-of-type(2)>div{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    padding-right: 5vw;
+}
+
+/*------------------------------------------------------------ Mes créations --------------------------------------------------------------------*/ 
 a:nth-of-type(3){
     margin-top: 15px;
     margin-right: 35px;
@@ -79,8 +114,11 @@ section:nth-of-type(3){
     font-family: 'Bebas Neue', cursive;
     background-color: #366ed8;
 }
-
-/* Me Contacter */ 
+h2:nth-of-type(3){
+    background-color :#366ed8;
+    color: white; 
+}
+/*----------------------------------------------------------- Me Contacter ------------------------------------------------------------------------*/ 
 a:nth-of-type(4){
     margin-top: 10px;
     margin-right: 20px;
@@ -93,5 +131,9 @@ section:nth-of-type(4){
 
 section:nth-of-type(4)>h2{
     color: #366ed8;
+}
+h2:nth-of-type(4){
+    background-color :#f2f3f3;
+    color: #366ed8; 
 }
 
